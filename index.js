@@ -17,5 +17,7 @@ function greet(hourTime) {
   return "Good Afternoon"
 }
 
-
+function displayMessage(msg) {
+  document.getElementById("greeting").innerText = msg;
+}
 
