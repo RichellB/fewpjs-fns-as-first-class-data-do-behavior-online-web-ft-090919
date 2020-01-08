@@ -18,6 +18,6 @@ function greet(hourTime) {
 }
 
 function displayMessage(msg) {
-  document.getElementById("greeting").innerText = msg;
+  document.getElementById("greeting") = msg;
 }
 
